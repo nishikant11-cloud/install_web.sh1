@@ -1,2 +1,4 @@
-apt-get update -y && apt-get upgrade -y
-apt-get install -y nginx
+{
+  "fileUris": ["https://raw.githubusercontent.com/alashro/sampleweb/master/InstallIIS.ps1"],
+  "commandToExecute": "powershell.exe ./InstallIIS.ps1"
+}
